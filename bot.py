@@ -22,7 +22,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # --- Eventos do Bot ---
 @bot.event
-asyn<ctrl61>c def on_ready():
+async def on_ready():
     """Evento chamado quando o bot está pronto e conectado ao Discord."""
     print(f'Bot conectado como {bot.user.name} (ID: {bot.user.id})')
     print('------')
