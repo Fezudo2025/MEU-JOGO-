@@ -7,7 +7,7 @@ from nextcord.ext import commands
 # --- Configuração Inicial ---
 # TODO: Substituir "SEU_TOKEN_AQUI" pelo token real do bot.
 # O token deve ser mantido em segredo. Considerar usar variáveis de ambiente.
-BOT_TOKEN = "MTM3ODQzMDc4MDA3ODAzNTEyNA.GpZOOo.liJjgVNK2AQbtNhpGSckho2lDX5F8Gy5FMRaZA"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Define as intenções (Intents) necessárias para o bot.
 # Precisamos de guilds, members (para info de usuários), voice_states (para controle de voz) e messages/message_content (para DMs/comandos)
