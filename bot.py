@@ -30,7 +30,6 @@ initial_extensions = [
     'cogs.event_handler',
     'cogs.voice_manager',
     'cogs.timer_manager',
-    'cogs.score_manager'
 ]
 
 # --- Carrega os cogs ao iniciar ---
