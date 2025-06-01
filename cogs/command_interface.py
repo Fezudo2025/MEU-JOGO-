@@ -115,7 +115,7 @@ class CommandInterface(commands.Cog):
 
         # Se o envio de DMs não cancelou o jogo, avisa que está pronto para iniciar
         if guild_id in game_manager.active_games:
-            await game.game_channel.send("Papéis distribuídos! Espero que ninguém tenha recebido o papel de "trouxa". 😜 Dêem uma lida rápida e quando todos estiverem prontos, usem `/iniciar_noite` para começar a primeira noite!")
+            await game.game_channel.send("Papéis distribuídos! Espero que ninguém tenha recebido o papel de 'trouxa'. 😜 Dêem uma lida rápida e quando todos estiverem prontos, usem /iniciar_noite para começar a primeira noite!")
 
     @nextcord.slash_command(name="iniciar_noite", description="Inicia a primeira noite após a preparação do jogo")
     async def start_night_command(self, interaction: nextcord.Interaction):
